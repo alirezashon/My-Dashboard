@@ -1,0 +1,193 @@
+@font-face{
+  font-family: Tanha;
+  src: url("./font/Tanha.ttf");
+}
+
+@keyframes profile {
+  0%{margin-right: -200px;}
+  25%{margin-right: -150px; }
+  50%{margin-right: -100px; }
+  75%{margin-right: -50px; }
+}
+
+
+body{
+  overflow-x: hidden;
+}
+* {
+    font-family: Tanha ;
+  }
+  .purple{background-color: #499b01;
+  }  
+  /*nav*/
+.Link{
+  text-decoration: none;
+  color: #024c27;
+  background-color: #fff;
+  padding: 3px 11px;
+  border-radius: 12px;
+}
+.Link:hover{color: #9af03e;
+  background-color: #499b01 ;
+}
+
+.search-btn{border-radius: 80%; color: #000;
+}
+.navigation{
+  background:linear-gradient(277deg, #499b01, #a5cd39, #a5cd39,  #a5cd39,#c3f048, #63ce05);
+  font-weight: bold;       direction: rtl;          font-family: Tanha ;
+font-size: 22px;       border-bottom: #499b01 1px solid;
+}
+.top-nav-items{background-color: #fff;     margin-left: 17%;    text-align: center; 
+color: #499b01;
+}
+.menu-items{ text-decoration: none;   color: #ffffff; 
+}
+.search-options{ font-size: 44px; background: #499b01; 
+}
+
+.search-options-box{   box-shadow: 0px 0px 7px 1px #499b01;
+  background:linear-gradient(277deg, #499b01, #a5cd39, #a5cd39,  #a5cd39,#c3f048, #63ce05);
+justify-content: space-between;  width: 130vh;
+}
+.calender-box{
+  align-items: center;
+  background-color:#a9cf41;
+  margin-left: 111px;
+  padding: 0 12px;
+  padding-top: 11px;
+  border-radius: 22px;
+}
+/*end-ofnav*/
+
+/* profile */
+
+.profile-image{
+  animation: profile 0.3s;
+  width: 20vh;
+  border: solid 2px #499b01;
+  box-shadow: 1px 1px 7px 3px #024c27;
+  border-radius: 100%;
+}
+
+/* end-of-profile */
+
+
+.post-detail{
+  display: inline-block;
+}
+.mail-date-box{ 
+display: flex;
+}
+.mail-btn{
+background-color: #024c27;
+color: #024c27;
+background: #024c27;
+}
+.first-row{
+display: flex;
+padding: 12px 7px;
+justify-content: space-between;
+margin: 20px 2px;
+border: solid 2px #a5cd39;
+}
+
+
+/* table haaaaw */
+.board-box{
+  width: 100%;
+  height: 222px;
+  overflow:scroll ;
+  scrollbar-color:  red;
+  
+}
+
+
+/* send-email */
+.send-mail-btns{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.ui-accordion .ui-accordion-content {
+  background: #f11515 ;
+}
+
+.myAccordion .p-accordion{
+  background-color: #07c4e8;
+  color: #ffffff;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a5cd39; 
+  border-radius:4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #499b01; 
+}
+
+
+/*dashboard-content*/
+.chart-boxes{
+  display: flex;
+  justify-content: space-between;
+}
+.chart-box{
+  width: 60vh;
+  height: fit-content;
+  padding: 7px;
+  border: solid 1px #499b01;
+}
+/*end-of-dashboard-content*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .board-box::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  
+  .board-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 7px;
+  }
+   
+  .board-box::-webkit-scrollbar-thumb {
+    background: #499b01; 
+    border-radius:7px;
+  }
+  
+  .board-box::-webkit-scrollbar-thumb:hover {
+    background: #a5cd39; 
+  }
+   */
